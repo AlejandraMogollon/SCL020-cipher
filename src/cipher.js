@@ -12,14 +12,9 @@ export default cipher;
 function encode(originalMessage,shift){
 
   let result="";
-  let alphabet= "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  let alphabet="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   shift = ((shift % 26)+ 26) % 26;
-  // 26 * 1 = 26  
-  // 26 * 2 = 52
-  // 26 * 3 = 78
-  console.log("Este es el shift %26", shift % 26);
-
-
+  
   for (let i = 0; i < originalMessage.length; i++){
     if (alphabet.indexOf(originalMessage[i]) != -1)
     {
@@ -36,7 +31,25 @@ function encode(originalMessage,shift){
 }
 
 
-function decode(){
+function decode(encryptedMessage, shift){
+  let result="";
+  let alphabet="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  shift = ((shift % 26)- 26) % 26;
+  
+  for (let i = 0; i < encryptedMessage.length; i++){
+    if (alphabet.indexOf(encryptedMessage[i]) != -1)
+    {
 
-  console.log("mensaage decifrado");
+      console.log(encryptedMessage[i]);
+      let position = (alphabet.indexOf(encryptedMessage[i]) - shift ) % 26;
+      result += alphabet[position];
+
+    } else {
+      result += encryptedMessage[i];
+    }
+  }
+ return result;
 }
+
+
+
