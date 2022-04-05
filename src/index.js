@@ -50,7 +50,7 @@ window.eventDecode = function eventDecode(){
     let shift = document.getElementById("shift").value;
 
     if (encryptedMessage === "" || shift === ""){
-        alert ("You Need to type a Message and choose a Shift for Code a Message");
+        alert ("You Need to type a Message and choose a Shift for De-code a Message");
     }
 
     let decodeMessage = cipher.decode(encryptedMessage,shift); 
@@ -61,4 +61,25 @@ window.eventDecode = function eventDecode(){
     
     
 }
+
+window.enterPass= function enterPass(){
+    let myPass = document.getElementById("pass").value;
+    let correctPass = "18423151";
+
+    if (myPass === correctPass ){
+        window.location.href = "login.html";
+        
+    }else{
+        alert("INCORRECT PASSWORD");
+    }
+
+
+}
+
+
+
+
+
+
+
 

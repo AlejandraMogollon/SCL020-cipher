@@ -13,8 +13,10 @@
   -La pagina que codifica un mensaje con su boton de vuelta a la pagina anterior.
   -La pagina que de codifica un mensaje con su boton de vuelta a la pagina anterior.
 
-  _Aqui va imagen Prototipo Cipher_
+  <img src="https://i.ibb.co/Qvbs1ZK/prototipo-Cipher.jpg" alt="prototipo-Cipher" border="0">
 
 Seguido a esto, decidi hacer la maqueta en Figma para tener una idea de lo que queria, igual que ver la paleta de colores a utilizar, al ser una tematica de espias, los colores oscuros seran predominantes.
 
 Busque fondos de pantalla uno para la principal y otro para las otras vistas.
+
+<a href="https://www.figma.com/file/gJEbHnOuf6mK0O7IqS9Pur/Untitled?node-id=0%3A1">Link a Esquema en Figma</a>
