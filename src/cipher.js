@@ -26,7 +26,7 @@ function encode(originalMessage,shift){
     if (alphabet.indexOf(originalMessage[i]) != -1)
     {
 
-      console.log(originalMessage[i]);
+      //console.log(originalMessage[i]);
       let position = (alphabet.indexOf(originalMessage[i]) + shift ) % 26;
       result += alphabet[position];
 
@@ -52,7 +52,7 @@ function decode(encryptedMessage, shift){
     if (alphabet.indexOf(encryptedMessage[i]) != -1)
     {
 
-      console.log(encryptedMessage[i]);
+      //console.log(encryptedMessage[i]);
       let position = (alphabet.indexOf(encryptedMessage[i]) - shift ) % 26;
       result += alphabet[position];
 

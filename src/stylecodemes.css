@@ -40,8 +40,8 @@ p {
 #logo {
   width: 230px;
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 12px;
+  left: 12px;
 }
 
 #button2 {

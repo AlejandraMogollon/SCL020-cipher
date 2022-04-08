@@ -68,7 +68,7 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
 
 ### HTML
 
-- [ ] **Uso de HTML semántico**
+- [x] **Uso de HTML semántico**
 
     <details><summary>Links</summary><p>
 
@@ -78,7 +78,7 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
 
 ### CSS
 
-- [ ] **Uso de selectores de CSS**
+- [x] **Uso de selectores de CSS**
 
     <details><summary>Links</summary><p>
 
@@ -86,7 +86,7 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
   - [CSS Selectors - MDN](https://developer.mozilla.org/es/docs/Web/CSS/CSS_Selectors)
   </p></details>
 
-- [ ] **Modelo de caja (box model): borde, margen, padding**
+- [x] **Modelo de caja (box model): borde, margen, padding**
 
     <details><summary>Links</summary><p>
 
@@ -99,7 +99,7 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
 
 ### Web APIs
 
-- [ ] **Uso de selectores del DOM**
+- [x] **Uso de selectores del DOM**
 
     <details><summary>Links</summary><p>
 
@@ -108,7 +108,7 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
   - [Localizando elementos DOM usando selectores - MDN](https://developer.mozilla.org/es/docs/Web/API/Document_object_model/Locating_DOM_elements_using_selectors)
   </p></details>
 
-- [ ] **Manejo de eventos del DOM (listeners, propagación, delegación)**
+- [x] **Manejo de eventos del DOM (listeners, propagación, delegación)**
 
     <details><summary>Links</summary><p>
 
@@ -141,7 +141,7 @@ np
   - [Valores primitivos - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Data_structures#valores_primitivos)
   </p></details>
 
-- [ ] **Strings (cadenas de caracteres)**
+- [x] **Strings (cadenas de caracteres)**
 
     <details><summary>Links</summary><p>
 
@@ -149,7 +149,7 @@ np
   - [String — Cadena de caracteres - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String)
   </p></details>
 
-- [ ] **Variables (declaración, asignación, ámbito)**
+- [x] **Variables (declaración, asignación, ámbito)**
 
     <details><summary>Links</summary><p>
 
@@ -157,7 +157,7 @@ np
   - [Variables](https://curriculum.laboratoria.la/es/topics/javascript/01-basics/02-variables)
   </p></details>
 
-- [ ] **Uso de condicionales (if-else, switch, operador ternario, lógica booleana)**
+- [x] **Uso de condicionales (if-else, switch, operador ternario, lógica booleana)**
 
     <details><summary>Links</summary><p>
 
@@ -165,7 +165,7 @@ np
   - [Tomando decisiones en tu código — condicionales - MDN](https://developer.mozilla.org/es/docs/Learn/JavaScript/Building_blocks/conditionals)
   </p></details>
 
-- [ ] **Uso de bucles/ciclos (while, for, for..of)**
+- [x] **Uso de bucles/ciclos (while, for, for..of)**
 
     <details><summary>Links</summary><p>
 
@@ -173,7 +173,7 @@ np
   - [Bucles e iteración - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Loops_and_iteration)
   </p></details>
 
-- [ ] **Funciones (params, args, return)**
+- [x] **Funciones (params, args, return)**
 
     <details><summary>Links</summary><p>
 
@@ -183,7 +183,7 @@ np
   - [Funciones — bloques de código reutilizables - MDN](https://developer.mozilla.org/es/docs/Learn/JavaScript/Building_blocks/Functions)
   </p></details>
 
-- [ ] **Pruebas unitarias (unit tests)**
+- [x] **Pruebas unitarias (unit tests)**
 
     <details><summary>Links</summary><p>
 
@@ -204,9 +204,9 @@ np
 
 ### Control de Versiones (Git y GitHub)
 
-- [ ] **Git: Instalación y configuración**
+- [x] **Git: Instalación y configuración**
 
-- [ ] **Git: Control de versiones con git (init, clone, add, commit, status, push, pull, remote)**
+- [x] **Git: Control de versiones con git (init, clone, add, commit, status, push, pull, remote)**
 
 - [ ] **GitHub: Creación de cuenta y repos, configuración de llaves SSH**
 
@@ -219,13 +219,13 @@ np
 
 ### user-centricity
 
-- [ ] **Diseñar un producto o servicio poniendo a la usuaria en el centro**
+- [x] **Diseñar un producto o servicio poniendo a la usuaria en el centro**
 
 ### product-design
 
-- [ ] **Crear prototipos de alta fidelidad que incluyan interacciones**
+- [x] **Crear prototipos de alta fidelidad que incluyan interacciones**
 
-- [ ] **Seguir los principios básicos de diseño visual**
+- [x] **Seguir los principios básicos de diseño visual**
 
 ## 4. Consideraciones generales
 
@@ -446,22 +446,22 @@ Esta sección está para ayudarte a llevar un control de lo que vas completando.
       el producto.
 - [x] `README.md` explica claramente cómo el producto soluciona los
       problemas/necesidades de los usuarios.
-- [ ] Usa VanillaJS.
-- [ ] Implementa `cipher.encode`.
-- [ ] Implementa `cipher.decode`.
-- [ ] Pasa linter con configuración provista.
-- [ ] Pasa pruebas unitarias.
-- [ ] Pruebas unitarias cubren 70% de _statements_, _functions_ y _lines_, y un
+- [x] Usa VanillaJS.
+- [x] Implementa `cipher.encode`.
+- [x] Implementa `cipher.decode`.
+- [x] Pasa linter con configuración provista.
+- [x] Pasa pruebas unitarias.
+- [x] Pruebas unitarias cubren 70% de _statements_, _functions_ y _lines_, y un
       mínimo del 50% de _branches_.
-- [ ] Interfaz permite elegir el `offset` o _desplazamiento_ a usar en el
+- [x] Interfaz permite elegir el `offset` o _desplazamiento_ a usar en el
       cifrado/descifrado.
-- [ ] Interfaz permite escribir un texto para ser cifrado.
-- [ ] Interfaz muestra el resultado del cifrado correctamente.
-- [ ] Interfaz permite escribir un texto para ser descifrado.
-- [ ] Interfaz muestra el resultado del descifrado correctamente.
+- [x] Interfaz permite escribir un texto para ser cifrado.
+- [x] Interfaz muestra el resultado del cifrado correctamente.
+- [x] Interfaz permite escribir un texto para ser descifrado.
+- [x] Interfaz muestra el resultado del descifrado correctamente.
 
 ### Parte Opcional: "Hacker edition"
 
 - [ ] Cifra/descifra minúsculas
 - [ ] Cifra/descifra _otros_ caracteres (espacios, puntuación, `ñ`, `á`, ...)
-- [ ] Permite usar un `offset` negativo.
+- [x] Permite usar un `offset` negativo.
